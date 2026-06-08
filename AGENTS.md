@@ -51,3 +51,5 @@ There is no formal test suite. Validate changes with `npm run build`, then run `
 ## Commit & Pull Request Guidelines
 
 Use concise imperative commits, for example `Prepare Evergrove for Vercel` or `Fix dev stylesheet loading`. PRs should list affected sections, include validation commands, and attach screenshots for visual changes.
+
+When creating and pushing a new repository from a local folder, run `npm run build` immediately after the first successful push and report the result. Do not commit generated build output such as `.vercel/output`.
